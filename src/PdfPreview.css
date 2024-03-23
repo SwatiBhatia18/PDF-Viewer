@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  .preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #ccc;
+  }
+  
+  .page p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
